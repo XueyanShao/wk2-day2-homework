@@ -24,14 +24,14 @@
     
   </head>
   <body id="home">
-    <div id="container-fluid">
+    <div id="container-fluid" class="grid-system">
     <header>
-      <div class="main-header">
-        <div class="logo">
+      <div class="main-header row mx-5">
+        <div class="logo col p-0">
             <img src="images/logo.png" alt="Great Cliffs Logo" width="125">
         </div>
-        
-        <nav class="main-menu navbar navbar-expand-sm navbar-light bg-transparent">
+        <div class="col d-flex justify-content-end py-4">
+        <nav class="main-menu ml-0 p-0 navbar navbar-expand-md navbar-light bg-transparent">
            <button
           class="navbar-toggler"
           type="button"
@@ -57,14 +57,17 @@
             </ul>
             </div>
         </nav>
+        </div>
     </div>
     </header>
 
     <main>
-      <div>
-        <h1>Introducing California's Greatest Cliffs</h1>
-          <div>
-            <h2>What is so unique about California cliffs?</h2>
+      <div class="row">
+        <h1 class="col-12 pl-4 pr-4 text-center">Introducing California's Greatest Cliffs</h1>
+        </div> 
+        <div class="row m-3">
+        <div class="col-sm-12 col-md border border-secondary p-4 my-3">
+            <h2 class="text-center">What is so unique about California cliffs?</h2>
             <p>
               California cliffs are one of a kind in the United States where
               no cliffs are as manificent and beautiful as them. And
@@ -76,36 +79,36 @@
               and overnight cabins.
             </p>
           </div>
-      </div>
- 
-      <div>
-        <h2>Where are these cliffs?</h2>
+     
+      <div class="col-sm-12 col-md border border-secondary p-4">
+        <h2 class="text-center">Where are these cliffs?</h2>
         <p>
           Located within a 100 mile radius from Irvine, California, they
           can be reached by roads easily. The closest cliff to Irvine is
           West Cliff, which is the most popular and most visited.
         </p>
       </div>
+      </div>
     </main>
     
     <section>
-      <ul id="partners">
-        <li class="partner">
+      <ul id="partners" class="row d-sm-flex d-md-flex d-lg-flex gx-3 w-auto">
+        <li class="partner col-12 col-lg  m-3">
              <img src="images/partners/partner-bustour.png" alt="Partner Bus Tours">
          </li>
-         <li class="partner">
+         <li class="partner col-12 col-lg m-3">
              <img src="images/partners/partner-cabinrental.png" alt="Partner Cabin Rental">
          </li>
-         <li class="partner">
+         <li class="partner col-12 col-lg m-3">
              <img src="images/partners/partner-campingadv.png" alt="Partner Camping Adventure">
          </li>
-         <li class="partner">
+         <li class="partner col-12 col-lg m-3">
              <img src="images/partners/partner-collegetours.png" alt="Partner College Tours">
          </li>
-         <li class="partner">
+         <li class="partner col-12 col-lg m-3">
              <img src="images/partners/partner-rentalbike.png" alt="Partner Bike Rentals">
          </li>
-         <li class="partner">
+         <li class="partner col-12 col-lg m-3">
              <img src="images/partners/partner-tourgroup.png" alt="Partner Tour Group">
          </li>
      </ul>
@@ -113,9 +116,9 @@
 
     <footer>
       <!-- Nondisclaimer -->
-      <div id="nondisclaimer">
-        <div class="copy">&copy; Copyright 2021 :: GreatCliffs.com</div>
-        <div class="social">
+      <div id="nondisclaimer" class="row">
+        <div class="copy col-sm-12 col-lg">&copy; Copyright 2021 :: GreatCliffs.com</div>
+        <div class="social col-sm-12 col-lg d-flex-justify-content-end m-0">
           <a href="#" class="fa fa-facebook"></a>
           <a href="#" class="fa fa-instagram"></a>
           <a href="#" class="fa fa-twitter"></a>
@@ -124,7 +127,7 @@
       <!-- End Nondisclaimer -->
 
       <!-- Disclaimer -->
-      <div id="disclaimer">
+      <div id="disclaimer" class="col-12 pb-3">
         <p>
           This website is designed and created solely for educational purposes
           only at Westcliff University. All contents are not intended for any

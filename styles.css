@@ -10,10 +10,10 @@ header {
 }
 .main-header {
     background-color:rgb(255, 255, 255, 0.8) ;
-    width: 700px;
-    margin: 2em auto 0 auto;
+    /* width: 700px; */
+    /* margin: 2em auto 0 auto; */
     min-height: 100px;
-    height: 100px;
+    /*height: 100px; */
 }
 .main-header .logo img {
     width: 100px;
@@ -26,6 +26,8 @@ header {
 .main-menu.navbar.navbar-expand-sm {
     margin-left: 227px;
     font-weight: 400;
+    height:auto;
+    width:auto;
 }
 .nav-item {
     list-style-type: none;
@@ -49,8 +51,12 @@ header {
     background: #9ed034;
     border: none;
 }
-.nav-item.active a {
+.nav-item.active .nav-link {
     color: #fff;
+}
+button {
+    margin-left:6em;
+
 }
 
 /* Main */
@@ -70,25 +76,25 @@ main h2 {
 
 /* Partners */
 section {
-    width: 100%;
     background-color: #4288C3;
 }
 section #partners {  
-    width: 1200px;
+    width: auto;
     padding: 2em 0 2em 0;
     margin: 0 auto;
     text-align: center;
 }
 section #partners .partner {
-    display: inline-block;
-    margin: 0 0.75em;
+    list-style: none;
+    text-align: center;
+    /* margin: 0.75em; */
     padding: 1.3em 1.5em;
     background-color: #fff;
     border-radius: 50%;
 }
 section #partners .partner img {
-    width: 90px;
-    height: 90px;
+    max-width: 90px;
+    height:auto;
 }
 
 /* Footer */
@@ -110,6 +116,7 @@ footer #nondisclaimer .social {
 }
 footer #disclaimer {
     clear: both;
+    background-color: #ecfab8;
 }
 
 footer #disclaimer p {
@@ -119,7 +126,8 @@ footer #disclaimer p {
 footer #nondisclaimer .social .fa {
     padding: 15px;
     font-size: 15px;
-    width: 15px;
+    width: 3em;
+    height:3em;
     text-align: center;
     text-decoration: none;
     margin: 0 4px;
