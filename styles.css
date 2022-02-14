@@ -83,18 +83,19 @@ section #partners {
     padding: 2em 0 2em 0;
     margin: 0 auto;
     text-align: center;
+    justify-content: center;
 }
 section #partners .partner {
     list-style: none;
     text-align: center;
-    /* margin: 0.75em; */
+    margin: 0.75em;
     padding: 1.3em 1.5em;
     background-color: #fff;
-    border-radius: 50%;
+    /* border-radius: 50%; */
 }
 section #partners .partner img {
-    max-width: 90px;
-    height:auto;
+    max-width:8rem;
+    height:8rem;
 }
 
 /* Footer */
